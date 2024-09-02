@@ -39,3 +39,16 @@ Line 60 : !insertmacro MUI_LANGUAGE "English"
 # C:\buildrustdesk\thibdesk\build.rs   -------- A MODIFIER ------
 Line 32 : winapi::um::winnt::LANG_FRENCH,
 Line 33:  winapi::um::winnt::SUBLANG_FRENCH_FR,
+
+
+
+------------------------------------------------------------------------------
+
+Change Icons 
+
+# C:\buildrustdesk\rustdesk\res
+![image](https://github.com/user-attachments/assets/840b2110-ce53-4839-b2dd-285f825b5bee)
+
+# C:\buildrustdesk\rustdesk\flutter\assets
+
+icon.svg
