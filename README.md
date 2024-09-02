@@ -26,3 +26,16 @@ If it complains that it cannot find python or the command is unrecognized, you n
 
 Now build and run application via cargo run or cargo build
 Run python res/inline-sciter.py every time you want to build the UI resources again
+
+
+------------------------------------------------------------------------------
+
+Change Default Language
+
+# C:\buildrustdesk\thibdesk\res\setup.nsi
+Line 59 : !insertmacro MUI_LANGUAGE "French" ; The first language is the default language
+Line 60 : !insertmacro MUI_LANGUAGE "English"
+
+# C:\buildrustdesk\thibdesk\build.rs
+Line 32 : winapi::um::winnt::LANG_FRENCH,
+Line 33:  winapi::um::winnt::SUBLANG_FRENCH_FR,
