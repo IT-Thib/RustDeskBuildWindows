@@ -60,3 +60,15 @@ Line 175 : LegalCopyright = "Copyright © 2024 IT-Thib. Tous droits réservés."
 
 # C:\buildrustdesk\thibdesk\flutter\lib\desktop\pages\desktop_setting_page.dart
 Line 1912 :  'Copyright © ${DateTime.now().toString().substring(0, 4)} IT-Thib.\n$license',
+
+# C:\buildrustdesk\thibdesk\flutter\macos\Runner\Configs\AppInfo.xcconfig
+Line 14 : PRODUCT_COPYRIGHT = Copyright © 2024 IT-Thib. Tous droits réservés.
+
+# C:\buildrustdesk\thibdesk\flutter\windows\runner\Runner.rc
+Line 96 : VALUE "LegalCopyright", "Copyright © 2024 IT-Thib. Tous droits réservés." "\0"
+
+# C:\buildrustdesk\thibdesk\libs\portable\Cargo.toml
+Line 21 : LegalCopyright = "Copyright © 2024 IT-Thib. Tous droits réservés."
+ 
+
+
