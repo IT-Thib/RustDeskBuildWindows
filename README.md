@@ -14,3 +14,15 @@ default = ["use_dasp"]
 and change it to read
 
 default = ["use_dasp", "inline"]
+
+
+-------------------------------------------------------------------------
+
+Build the UI resources (requires Python 3 to be installed)
+
+Run python res/inline-sciter.py every time you want to build the UI resources again (i.e. every time you modify the UI)
+
+If it complains that it cannot find python or the command is unrecognized, you need to install the latest version of Python 3 and add it to your PATH environment variable.
+
+Now build and run application via cargo run or cargo build
+Run python res/inline-sciter.py every time you want to build the UI resources again
