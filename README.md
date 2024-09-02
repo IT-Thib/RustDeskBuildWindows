@@ -52,3 +52,11 @@ Change Icons
 # C:\buildrustdesk\rustdesk\flutter\assets
 
 icon.svg
+
+Change Copyright 
+
+# C:\buildrustdesk\thibdesk\Cargo.toml
+Line 175 : LegalCopyright = "Copyright © 2024 IT-Thib. Tous droits réservés."
+
+# C:\buildrustdesk\thibdesk\flutter\lib\desktop\pages\desktop_setting_page.dart
+Line 1912 :  'Copyright © ${DateTime.now().toString().substring(0, 4)} IT-Thib.\n$license',
