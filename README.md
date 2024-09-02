@@ -36,6 +36,6 @@ Change Default Language
 Line 59 : !insertmacro MUI_LANGUAGE "French" ; The first language is the default language
 Line 60 : !insertmacro MUI_LANGUAGE "English"
 
-# C:\buildrustdesk\thibdesk\build.rs
+# C:\buildrustdesk\thibdesk\build.rs   -------- A MODIFIER ------
 Line 32 : winapi::um::winnt::LANG_FRENCH,
 Line 33:  winapi::um::winnt::SUBLANG_FRENCH_FR,
