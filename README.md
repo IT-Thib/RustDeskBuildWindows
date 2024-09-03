@@ -73,6 +73,15 @@ Line 96 : VALUE "LegalCopyright", "Copyright © 2024 IT-Thib. Tous droits réser
 
 # C:\buildrustdesk\thibdesk\libs\portable\Cargo.toml
 Line 21 : LegalCopyright = "Copyright © 2024 IT-Thib. Tous droits réservés."
- 
+
+Change Colors
+
+go to src/ui then replace in the files: #2C8CFF and #0071ff with the desired color
+
+# C:\buildrustdesk\thibdesk\flutter\lib\common.dart
+
+Line 223 : static const Color grayBg = Color(0xFFEFEFF2);
+to 
+Line 233 : static const Color hoverBorder = Color(0xFF999999);
 
 
