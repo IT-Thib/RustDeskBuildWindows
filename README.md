@@ -53,6 +53,10 @@ Change Icons
 
 icon.svg
 
+# C:\buildrustdesk\rustdesk\flutter\windows\runner\resources
+
+app_icon.ico
+
 Change Copyright 
 
 # C:\buildrustdesk\thibdesk\Cargo.toml
