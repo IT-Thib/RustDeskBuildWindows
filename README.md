@@ -84,4 +84,6 @@ Line 223 : static const Color grayBg = Color(0xFFEFEFF2);
 to 
 Line 233 : static const Color hoverBorder = Color(0xFF999999);
 
+Naming
 
+https://github.com/ch4rg3ment/RustDeskBuildWindows/blob/main/naming.txt
